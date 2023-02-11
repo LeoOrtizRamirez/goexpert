@@ -1,0 +1,152 @@
+/*############# GLOBALES ######################*/
+    a{color: #efb810 !important;}
+
+    .px-5-g{
+        padding-right: 3rem; 
+        padding-left: 3rem;
+    }
+
+    .bg-body{
+        background-image: url(https://app.goexpert.digital/assets/image/fondo-login.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bold{font-weight: bold;}
+
+    .myb-5{ margin-bottom: 3rem;}
+
+    .c-dorado{ color: #efb810 !important; }
+
+    .c-blanco{ color: #ffffff; }
+
+    .p-top-3{padding-top: 3%;}
+
+    .fw-100{font-weight: 100;}
+
+    .fw-400{font-weight: 400;}
+
+    .bg-dark-home{background-color: #000000;}
+
+    .tx-decoration-auto{text-decoration: auto;}
+
+    .fl-right{float: right;}
+
+    .fl-left{ float: left;}
+
+    .mg-2{ margin: 0% 0% 0% 2% !important;}
+
+    .pl-5{padding-left: 3rem;}
+
+    .lh-10px{line-height:10px;}
+ 
+
+    /*PC*/
+    @media only screen and (min-width: 700px) {
+
+        .mobile{ display: none;}
+
+        .fs-40px{font-size: 40px !important;}
+
+        .my-5-g { margin-top: 3rem; margin-bottom: 3rem; }
+
+        .pt-5-g {padding-top: 3rem;}
+
+        .p-botton-5{ padding-bottom: 5% !important;}
+
+        .fs-12px{font-size: 12px !important;}
+
+    }
+     
+    /*MB*/
+    @media only screen and (max-width: 700px) {
+
+        .desktop{ display: none;}
+
+        .h2-mb{font-size: 15px;}
+
+        .fs-12px-mb{font-size: 12px !important;}
+
+        .fs-13px-mb{font-size: 13px !important;}
+
+        .fs-8px{font-size: 8px !important;}
+
+    }
+
+
+/*############# END GLOBALES######################*/
+
+
+
+/*######################## LOGO HOME #########################3*/
+    /*CENTAR LOGO EN Mobile */
+    @media only screen and (max-width: 700px) {
+            a.navbar-brand {
+            text-align: center !important;
+        }
+        img.logo {
+            width: 70%;
+        }
+    }
+    /*END CENTAR LOGO EN Mobile */
+/*##################### END LOGO HOME ##########################*/
+
+
+
+
+
+ /*########################### CARRERAS HOME ########################*/
+
+    .col-carreras{width: 12.5%;}
+
+    img.carreras {
+        width: 100%;
+        box-shadow: 1px 1px 20px 1px #88888894;
+        display:block;
+        margin:auto;
+    }
+
+    .px-5-mb{
+        padding-right: 0px ; 
+        padding-left: 0px ;
+    }
+
+/*######################### END CARRERAS HOME ########################*/
+
+
+
+
+
+/*2022-06-27 MG styles HOME*/
+
+button.btn.btn-primary.btn-home{
+    background-color: #00AFEC !important;
+    border-color: #00afee !important;
+    padding: 5px 14% 5px 14%;
+    font-size: 28px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ /*2022-06-27 MG  End styles HOME*/
+
+
+ /*STYLES MERBER LOGIN*/
+ body {
+    background-color: #3e3e3e !important; 
+    background-image: url(https://app.goexpert.digital/assets/image/fondo-login.webp);
+    color: #ffffff !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    height: 400px;
+    width: 100%;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+  /*STYLES MERBER LOGIN*/
